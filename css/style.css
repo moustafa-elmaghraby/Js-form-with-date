@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.social-media a{
+  padding-right: 10px !important;
+  color: aliceblue !important;
+  transition: all 0.5s ease-in-out !important;
+ 
+}
+
+.social-media a:hover{
+    color: #444343 !important;
+
+}
