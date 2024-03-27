@@ -14,28 +14,30 @@
 
     <h1 class="text-light text-center fw-bold pt-5">Login Page</h1>
     <div class="d-flex justify-content-center align-content-center align-items-center  py-5 ">
-        <form class="border border-opacity-50 p-5 bg-dark-subtle shadow-1 rounded-4 mobile-view ">
+        <form class="border border-opacity-50 p-5 bg-dark-subtle shadow-1 rounded-4 mobile-view form-fix ">
+            <h2 class="text-center text-dark pb-3">Enter your data</h2>
             <div class="d-flex flex-column my-2 ">
-                <label for="Name">Name</label>
-                <input type="text" placeholder="Enter Your Name" required>
+                <label for="Name">Name:</label>
+                <input type="text" placeholder="Enter Your Name" required class="form-control">
 
-                <label for="Email">Email</label>
-                <input type="email" placeholder="Enter you Mail" required>
+                <label for="Email">Email:</label>
+                <input type="email" placeholder="Enter you Mail" required class="form-control">
 
 
             </div>
 
-
-            <div class="d-flex flex-row py-3 gap-2 mobile-veiw-1">
+            <h5 >Birth Date:</h5>
+            <div class="d-flex flex-row py-1 gap-2 mobile-veiw-1 align-items-center">
+                
                 <label for="year">Year</label>
-                <select name="year" id="year">
+                <select name="year" id="year" >
                     <option value="1900">1900</option>
                 </select>
 
 
                 <label for="">Month</label>
                 <select name="month" id="month">
-                    <option value="jan">Jan</option>
+                    <option value="jan"></option>
                 </select>
 
 
